@@ -1,0 +1,15 @@
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\bin\Debug\net8.0\Laboratorio-3.exe
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\bin\Debug\net8.0\Laboratorio-3.deps.json
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\bin\Debug\net8.0\Laboratorio-3.runtimeconfig.json
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\bin\Debug\net8.0\Laboratorio-3.dll
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\bin\Debug\net8.0\Laboratorio-3.pdb
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.AssemblyInfoInputs.cache
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.AssemblyInfo.cs
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.csproj.CoreCompileInputs.cache
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.sourcelink.json
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.dll
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\refint\Laboratorio-3.dll
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.pdb
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\Laboratorio-3.genruntimeconfig.cache
+C:\Laboratorio\Laboratorio 3\Laboratorio-3\obj\Debug\net8.0\ref\Laboratorio-3.dll

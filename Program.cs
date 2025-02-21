@@ -1,7 +1,32 @@
 using System;
 
 
+class FuncionesAuxiliares
+{
+    public static int VerificarEntero(string mensaje)
+    {
+        int numero;
+        Console.WriteLine(mensaje);
+        while(!int.TryParse(Console.ReadLine(), out numero))
+        {
+            Console.WriteLine("Error: El numero ingresado debe ser entero");
+            Console.WriteLine(mensaje);
+        }
+        return numero;
+    }
 
+    public static double VerificarDouble(string mensaje)
+    {
+        double numero;
+        Console.WriteLine(mensaje);
+        while (!double.TryParse(Console.ReadLine(), out numero))
+        {
+            Console.WriteLine("Error: El numero ingresado debe ser Double");
+            Console.WriteLine(mensaje);
+        }
+        return numero;
+    }
+}
 class GestorEstudiantes
 {
     private static List<string> estudiantes = new List<string>();
@@ -13,8 +38,7 @@ class GestorEstudiantes
     {
         Console.Write("Ingrese el nombre del estudiante: ");
         string nombre = Console.ReadLine();
-        Console.Write("Ingrese la calificación del estudiante: ");
-        double calificacion = double.Parse(Console.ReadLine());
+        double calificacion = FuncionesAuxiliares.VerificarDouble("Ingrese la calificación del estudiante");
         estudiantes.Add(nombre);
         calificaciones.Add(calificacion);
         Console.WriteLine("Estudiante agregado correctamente.");
@@ -95,8 +119,8 @@ class Menu
             Console.WriteLine("3. Calcular promedio de calificaciones");
             Console.WriteLine("4. Mostrar estudiante con la calificación más alta");
             Console.WriteLine("5. Salir");
-            Console.Write("Seleccione una opción: ");
-            opcion = int.Parse(Console.ReadLine());
+            
+            opcion = FuncionesAuxiliares.VerificarEntero("Seleccione una opción: ");
 
             switch (opcion)
             {
@@ -115,6 +139,9 @@ class Menu
                     break;
                 case 5:
                     Console.WriteLine("Saliendo del sistema...");
+                    break;
+                default:
+                    Console.WriteLine("Opcion invalida");
                     break;
             }
         } while (opcion != 5);

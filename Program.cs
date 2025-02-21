@@ -38,9 +38,26 @@ class GestorEstudiantes
     {
         Console.Write("Ingrese el nombre del estudiante: ");
         string nombre = Console.ReadLine();
-        double calificacion = FuncionesAuxiliares.VerificarDouble("Ingrese la calificación del estudiante");
+
+        if (estudiantes.Contains(nombre)) 
+        {
+            Console.WriteLine("Estudiante ya registrado");
+            return;
+        }
         estudiantes.Add(nombre);
-        calificaciones.Add(calificacion);
+
+        double calificacion;
+        do {
+            calificacion = FuncionesAuxiliares.VerificarDouble("Ingrese la calificación del estudiante");
+            if (calificacion >= 0 && calificacion <= 100)
+            {
+                calificaciones.Add(calificacion);
+                break;
+            } else
+            {
+                Console.WriteLine("La nota debe ser entre 0 y 100");
+            }
+        } while (true);
         Console.WriteLine("Estudiante agregado correctamente.");
     }
     public static void Mostrarlistaestudiantes()
